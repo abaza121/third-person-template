@@ -1,0 +1,9 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/GameStyle.uss?fileID=7433441132597879392&amp;guid=b5a3bdbee9a424e48a1540907c4b286c&amp;type=3#GameStyle" />
+    <engine:VisualElement style="flex-grow: 1; align-items: center; justify-content: center;">
+        <engine:VisualElement style="width: 156px;">
+            <engine:Button text="Start" name="StartButton" />
+            <engine:Button text="Quit" name="QuitButton" style="margin-bottom: 10px;" />
+        </engine:VisualElement>
+    </engine:VisualElement>
+</engine:UXML>
